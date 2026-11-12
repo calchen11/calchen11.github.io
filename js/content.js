@@ -60,7 +60,7 @@ const CONTENT = {
   projects: [
     {
       name: "Spotify Streaming Analysis",
-      summary: "An end-to-end look at ten years of my own Spotify listening, from raw JSON exports to a database to interactive dashboards.",
+      summary: "An end-to-end look at ten years of my own Spotify listening, from raw exports to database to interactive dashboards.",
       tech: ["Python", "pandas", "PostgreSQL", "Power BI"],
       github: "",
       writeup: "",
@@ -74,7 +74,7 @@ const CONTENT = {
     },
     {
       name: "Water, Air & Life Expectancy",
-      summary: "Studied how environmental quality relates to life expectancy around the world, using WHO data to identify high-risk regions.",
+      summary: "Examined how environmental quality relates to life expectancy around the world, identifying high-risk regions for intervention efforts",
       tech: ["R", "tidyverse", "ggplot2"],
       github: "",
       writeup: "",
