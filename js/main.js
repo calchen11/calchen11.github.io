@@ -44,10 +44,7 @@ $("projects-content").innerHTML = c.projects
       <h3>${esc(p.name)}</h3>
       <p>${esc(p.summary)}</p>
       ${tags(p.tech)}
-      <p class="project-links">
-        ${p.github ? `<a href="${p.github}" ${newTab}>GitHub →</a>` : ""}
-        ${p.writeup ? `<a href="${p.writeup}" ${newTab}>Write-up →</a>` : ""}
-      </p>
+      <p class="project-links">${p.github ? `<a href="${p.github}" ${newTab}>GitHub →</a>` : ""}${p.writeup ? `<a href="${p.writeup}" ${newTab}>Write-up →</a>` : ""}</p>
     </article>`)
   .join("");
 

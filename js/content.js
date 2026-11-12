@@ -36,7 +36,7 @@ const CONTENT = {
       end: "2025-08",
       bullets: [
         "Uncovered product gaps in market of high-fidelity wireless speakers, assessing themes across Beats and competitors",
-        "Executed EDA/sent. analysis on 4,000+ consumer surveys using Excel, Python (pandas, numpy, matplotlib), NLP",
+        "Executed EDA and sentiment analysis on 4,000+ consumer surveys using Excel, Python (pandas, NumPy), and NLP",
         "Ranked 6 key product features and 7 purchase drivers, mapping spend across price tiers and buying channels",
         "Found sound quality and battery life were top-ranked features, with peak price preference at $100–200",
         "Drove recommendations for product launch, presenting findings via interactive dashboard for marketing team",
@@ -52,7 +52,7 @@ const CONTENT = {
         "Built models predicting NBA injury recovery times from 6,500+ injury logs to support player return planning",
         "Cleaned and engineered features with pandas and NumPy, encoding categoricals, standardizing, imputing nulls",
         "Benchmarked linear, Gradient Boosting, and Random Forest models, tuning hyperparameters to cut MAE by 8%",
-        "Identified and communicated significant injury factors by building 10+ visualizations using matplotlib and seaborn",
+        "Identified and communicated significant injury factors by building 10+ visualizations using Matplotlib and Seaborn",
       ],
     },
   ],
@@ -68,7 +68,7 @@ const CONTENT = {
     {
       name: "King County Home Sales Analysis",
       summary: "Explored what drives home prices around Seattle and built dashboards to help prospective Airbnb hosts compare neighborhoods.",
-      tech: ["Google Sheets", "Tableau", "Tableau Prep"],
+      tech: ["Google Sheets", "Tableau"],
       github: "",
       writeup: "",
     },

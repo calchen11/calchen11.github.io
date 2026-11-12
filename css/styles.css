@@ -95,10 +95,11 @@ a:hover { color: var(--accent-dark); }
 .bullets li { margin-bottom: .35rem; }
 .bullets li::marker { color: var(--accent); }
 
-.project { display: flex; flex-direction: column; }
-.project .tags { margin-top: auto; }
-.project-links { display: flex; gap: 1rem; margin: .75rem 0 0; font-weight: 600; }
-.project-links:empty { display: none; }
+/* Project cards share rows, so titles, summaries, tags, and links line up across cards */
+.project { display: grid; grid-row: span 4; grid-template-rows: subgrid; row-gap: .75rem; align-content: start; }
+.project h3, .project p { margin: 0; }
+.project .tags { align-content: start; align-items: start; }
+.project-links { display: flex; gap: 1rem; font-weight: 600; }
 
 /* Skills: one row per group */
 .skills { margin: 0; }
