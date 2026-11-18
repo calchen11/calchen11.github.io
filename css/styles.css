@@ -80,7 +80,7 @@ a:hover { color: var(--accent-dark); }
 }
 .about-me { padding-top: 1rem; padding-bottom: 5rem; text-align: center; }
 .about-me h2 { font-size: 1.1rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); }
-.about-me p { max-width: 70ch; font-size: 1.1rem; margin: 1rem auto 1.75rem; }
+.about-me p { max-width: 70ch; font-size: 1.1rem; margin: 1rem auto 1.25rem; text-align: left; }
 
 /* Cards, grids, tags */
 .grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }

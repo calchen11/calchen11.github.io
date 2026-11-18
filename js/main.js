@@ -20,7 +20,7 @@ $("name").textContent = c.name;
 $("location").textContent = c.location;
 $("about-me").innerHTML = `
   <h2>About Me</h2>
-  <p>${esc(c.aboutMe)}</p>`;
+  ${c.aboutMe.map((para) => `<p>${esc(para)}</p>`).join("")}`;
 
 // Skills
 $("skills-content").innerHTML = c.skills

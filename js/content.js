@@ -7,24 +7,28 @@ const CONTENT = {
   name: "Calvin Chen",
   email: "calvinchen521@gmail.com",
   phone: "561-309-9920",
-  resume: "assets/Calvin_Chen_Resume.pdf",
+  resume: "assets/CalvinChenDec27Resume.pdf",
   github: "https://github.com/calchen11",
   linkedin: "https://www.linkedin.com/in/calvin-chen-",
 
   location: "Seattle, WA",
 
   // About Me: the short write-up under your name (placeholder: fill in later)
-  aboutMe:
-    "I’m Calvin, an Informatics student at the University of Washington with a strong foundation in both the technical and analytical sides of data. My interest started with box scores, video game stats, and year-end music recaps, and today I’m driven by finding the story behind the numbers. I’m looking to bring that mindset to new challenges and spark change across various industries.",
+  // About Me: one string per paragraph
+  aboutMe: [
+    "Hi, I’m Calvin. I am a Chinese-American first-generation student at the University of Washington studying Informatics. I was born and raised in Lake Worth, Florida and moved to Seattle in 2018.",
+    "Growing up I was always interested in the small stats or metrics that came after an event. Whether it was box scores, video game stats, or end-of-year music recaps, I was drawn to these numbers in some way. So transitioning into college, the decision to concentrate in data science came naturally and after just my first data programming class, my pursuit toward an analytical career was confirmed. I genuinely enjoy the process of taking various forms of data and turning it into a clear, presentable story. I’m driven by making people’s lives easier and the continuous growth in skills, technologies, and domains makes working in this space very exciting for me.",
+    // "In my free time I ...",
+  ],
 
   // Skills: one row per group
   skills: [
-    { title: "Programming Languages", items: ["Python", "SQL", "R"] },
-    { title: "Libraries", items: ["pandas", "NumPy", "Matplotlib", "Seaborn"] },
-    { title: "Tools", items: ["Excel", "Power BI", "Tableau", "Git", "Microsoft Office Suite", "Google Workspace"] },
-    { title: "Concepts", items: ["EDA", "ETL/ELT", "Data Cleaning", "Data Analysis", "Data Visualization"] },
-    { title: "Interests", items: ["Weightlifting", "Traveling", "Beli", "Reading", "Concerts", "Legos"] },
-    { title: "Spoken Languages", items: ["English", "Taishanese"] },
+    { title: "Programming", items: ["SQL", "Python", "R"] },
+    { title: "Visualization & BI", items: ["Excel", "Power BI", "Tableau", "Matplotlib", "Seaborn"] },
+    { title: "Other", items: ["Git/GitHub", "ChatGPT", "Claude", "Microsoft Office Suite", "Google Workspace"] },
+    { title: "Soft", items: ["Empathy", "Curiosity + Continuous Learning", "Teamwork/Collaboration", "Communication", "Self-awareness", "Adaptability"] },
+    { title: "Interests", items: ["Weightlifting", "Traveling", "Miami Heat", "Beli", "Reading", "Concerts", "Legos"] },
+    { title: "Languages", items: ["English (native)", "Taishanese (speaking)"] },
   ],
 
   experience: [
@@ -35,11 +39,10 @@ const CONTENT = {
       start: "2025-04",
       end: "2025-08",
       bullets: [
-        "Uncovered product gaps in market of high-fidelity wireless speakers, assessing themes across Beats and competitors",
-        "Executed EDA and sentiment analysis on 4,000+ consumer surveys using Excel, Python (pandas, NumPy), and NLP",
-        "Ranked 6 key product features and 7 purchase drivers, mapping spend across price tiers and buying channels",
-        "Found sound quality and battery life were top-ranked features, with peak price preference at $100–200",
-        "Drove recommendations for product launch, presenting findings via interactive dashboard for marketing team",
+        "Uncovered product gaps in the market of wireless speakers by assessing themes across Beats and competitor brands",
+        "Executed EDA and sentiment analysis on 4,000+ consumer surveys using Excel, Python (pandas, NumPy), NLP",
+        "Highlighted 6 key product features and 7 purchase drivers, mapping spend across price tiers and buying channels",
+        "Built an interactive dashboard to drive recommendations for a new product launch, presenting to marketing team",
       ],
     },
     {
@@ -49,10 +52,10 @@ const CONTENT = {
       start: "2024-12",
       end: "2025-05",
       bullets: [
-        "Built models predicting NBA injury recovery times from 6,500+ injury logs to support player return planning",
-        "Cleaned and engineered features with pandas and NumPy, encoding categoricals, standardizing, imputing nulls",
-        "Benchmarked linear, Gradient Boosting, and Random Forest models, tuning hyperparameters to cut MAE by 8%",
-        "Identified and communicated significant injury factors by building 10+ visualizations using Matplotlib and Seaborn",
+        "Forecasted NBA player return-to-play timelines by modeling recovery times across 6,500+ historical injury logs",
+        "Cleaned injury data and engineered features with pandas and NumPy to prepare data for modeling",
+        "Cut prediction error (MAE) by 8% by benchmarking linear, Random Forest, and Gradient Boosting models",
+        "Revealed significant injury factors and communicated findings with 10+ Matplotlib and Seaborn visualizations",
       ],
     },
   ],
@@ -73,7 +76,7 @@ const CONTENT = {
       writeup: "",
     },
     {
-      name: "Water, Air & Life Expectancy",
+      name: "Water, Air & Life Expectancy Analysis",
       summary: "Examined how environmental quality relates to life expectancy around the world, identifying high-risk regions for intervention efforts",
       tech: ["R", "tidyverse", "ggplot2"],
       github: "",
