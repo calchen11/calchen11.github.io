@@ -7,7 +7,7 @@ const CONTENT = {
   name: "Calvin Chen",
   email: "calvinchen521@gmail.com",
   phone: "561-309-9920",
-  resume: "assets/CalvinChenDec27Resume.pdf",
+  resume: "assets/CalvinChenResume.pdf",
   github: "https://github.com/calchen11",
   linkedin: "https://www.linkedin.com/in/calvin-chen-",
 
