@@ -17,7 +17,7 @@ const CONTENT = {
   // About Me: one string per paragraph
   aboutMe: [
     "Hi, I’m Calvin. I am a Chinese-American first-generation student at the University of Washington studying Informatics. I was born and raised in Lake Worth, Florida and moved to Seattle in 2018.",
-    "Growing up I was always interested in the small stats or metrics that came after an event. Whether it was box scores, video game stats, or end-of-year music recaps, I was drawn to these numbers in some way. So transitioning into college, the decision to concentrate in data science came naturally and after just my first data programming class, my pursuit toward an analytical career was confirmed. I genuinely enjoy the process of taking various forms of data and turning it into a clear, presentable story. I’m driven by making people’s lives easier and the continuous growth in skills, technologies, and domains makes working in this space very exciting for me.",
+    "Growing up I was always interested in the small stats or metrics that came after an event. Whether it was box scores, video game stats, or end-of-year music recaps, I was drawn to these numbers in some way. So transitioning into college, the decision to concentrate in data science came naturally and after just my first data programming class, my pursuit toward an analytical career was confirmed. I’m driven by making people’s lives easier and the continuous growth in skills, technologies, and domains makes working in this space very exciting for me.",
     // "In my free time I ...",
   ],
 
